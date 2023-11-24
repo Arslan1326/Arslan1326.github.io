@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head> 
+    <meta charset="UTF-8">
+    <title> EXERCICE 2 </title>
+    <link href="CSS_EXO_2.css"  rel="stylessheet">
+</head>
+<body>
+    <h1> CONTACTEZ-MOI</h1>
+    <form action="url_de_traitement" method="post">
+        <ul> 
+        <li> <label for="name"> Nom: </label> <br>
+        <input type="text" id="name" name="user_name" > </li>
+        <li> <label for="mail"> Mail: </label>  <br>
+        <input type="email" id="mail" name="user_mail" > </li>
+        <li> <label type="msg"> Message : </label>  <br>
+        <textarea name="Message" id="msg" name="user_msg" cols="30" rows="5"></textarea></li>
+        </ul>
+    </form>    
+    <input type="submit">
+
+    <h2> Connectez-vous </h2>
+    <form action="connexion" method="post">
+    <ul>
+        <li> 
+        <label for="username"> Username </label> <br>
+        <input type="text" id="username" name="user_name"> 
+        </li>
+    <li> <label for="password"> Password </label> <br>
+    <input type="password" id="password" name="pass_word" > 
+    </li>
+    </ul>   
+    </form>
+    <button type="submit"> Se connecter </button>
+
+    <h2> Informations personnelles </h2>
+    <form action="informations_persos" method="post" > 
+        <ul>
+            <li>
+                <label for="name"> Nom </label> <br>
+                <input type="text" name="name" id="nom">
+            </li>
+        </ul>
+    </form>
+    
+
+</body>
